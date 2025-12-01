@@ -51,7 +51,7 @@ button{
   background-color: var(--logo-color);
   width: 124px;
   border: 0;
-  height: 54px;
+  height: 54px; 
 }
 button a{
   color: var(--highlight-color);
