@@ -1,19 +1,22 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+a {
   text-decoration: none;
 }
 
 :root {
-  --navbar-bg: #D9EDFF;
+  --navbar-bg: #d9edff;
   --logo-color: rgba(255, 166, 43, 1);
   --nav-link: rgba(0, 0, 0, 1);
   --highlight-color: rgba(255, 255, 255, 1);
 }
 
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   background-color: var(--navbar-bg);
 }
 
@@ -22,7 +25,7 @@ body {
   padding: 32px 102px 102px;
 }
 
-.navdiv {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -63,7 +66,7 @@ button a {
 }
 
 .menu-icon {
-  display: none;            
+  display: none;
   font-size: 32px;
   cursor: pointer;
   color: var(--nav-link);
@@ -71,11 +74,11 @@ button a {
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 24px 19px;  
+    padding: 24px 19px;
   }
   .navdiv {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
   }
   .navdiv ul {
