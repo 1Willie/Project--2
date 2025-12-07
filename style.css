@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --navbar-bg: #d9edff;
+  --logo-color: rgba(255, 166, 43, 1);
+  --nav-link-color: rgba(0, 0, 0, 1);
+  --highlight-color: rgba(255, 255, 255, 1);
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: var(--navbar-bg);
+}
+
+.navbar {
+  background-color: var(--navbar-bg);
+  padding: 32px 102px 102px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--logo-color);
+}
+
+li {
+  list-style: none;
+}
+
+.nav-container ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+li a {
+  color: var(--nav-link-color);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.join-btn {
+  padding: 12px 24px;
+  background-color: var(--logo-color);
+  color: var(--highlight-color);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  display: none;
+  font-size: 32px;
+  cursor: pointer;
+  color: var(--nav-link-color);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 24px 19px;
+  }
+
+  .nav-container ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+}
