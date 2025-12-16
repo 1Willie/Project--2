@@ -17,6 +17,8 @@ a {
   --border-color: #bdbdbd;
   --form-input-bg-color: #fbfbfb;
   --input-text-color: #000000b0;
+  --icon-color: #ffa62b;
+  --card-text-color: #000000;
 }
 
 body {
@@ -208,4 +210,99 @@ li a {
   cursor: pointer;
   font-size: 15px;
   font-weight: 600;
+}
+
+/* !--Why--choose--us--section--*/
+
+.why-choose-us {
+  padding: 122px 102px 114px 102px;
+  background: var(--highlight-color);
+  width: 100%;
+  text-align: center;
+}
+
+.why-choose-us h2 {
+  font-size: 24px;
+  color: var(--card-text-color);
+  font-weight: 600;
+}
+
+.why-choose-us-cards {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.why-choose-us-card {
+  width: 100%;
+  background-color: var(--navbar-bg);
+  border-radius: 30px;
+  margin-top: 74px;
+  display: flex;
+  flex-direction: column;
+  max-width: 342px;
+}
+
+.why-choose-us-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--navbar-bg);
+  border-radius: 20px;
+  padding: 41px 39px 35px 52px;
+}
+
+.icon-wrap {
+  width: 52px;
+  height: 52px;
+  background: var(--icon-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrap img {
+  width: 25px;
+  height: 18.57px;
+  object-fit: contain;
+}
+
+.why-choose-us-card ul li {
+  list-style: disc;
+  margin-bottom: 28px;
+  color: var(--card-text-color);
+  line-height: 1.4;
+  font-weight: 400;
+  width: 305px;
+  margin-left: 11px;
+  padding-right: 11px;
+  size: 16px;
+}
+
+.why-choose-us-card h3 {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--nav-link-color);
+}
+
+.why-choose-us-card-body {
+  border: var(--primary-button-color) 1px solid;
+  border-radius: 30px;
+  padding: 46px 11px 0px 26px;
+  background-color: var(--highlight-color);
+  text-align: left;
+  width: 100%;
+  max-width: 342px;
+  flex-grow: 1;
+}
+
+.why-choose-us-card a {
+  display: inline-block;
+  margin-top: auto;
+  color: var(--icon-color);
+  font-weight: 600;
+  padding-bottom: 36px;
+  margin-left: 11px;
 }
