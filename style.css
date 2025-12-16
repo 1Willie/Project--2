@@ -235,12 +235,13 @@ li a {
 }
 
 .why-choose-us-card {
-  width: 342px;
+  width: 100%;
   background-color: var(--navbar-bg);
   border-radius: 30px;
   margin-top: 74px;
   display: flex;
   flex-direction: column;
+  max-width: 342px;
 }
 
 .why-choose-us-card-header {
@@ -270,10 +271,14 @@ li a {
 
 .why-choose-us-card ul li {
   list-style: disc;
-  margin: 11px;
+  margin-bottom: 28px;
   color: var(--card-text-color);
   line-height: 1.4;
   font-weight: 400;
+  width: 305px;
+  margin-left: 11px;
+  padding-right: 11px;
+  size: 16px;
 }
 
 .why-choose-us-card h3 {
@@ -285,7 +290,7 @@ li a {
 .why-choose-us-card-body {
   border: var(--primary-button-color) 1px solid;
   border-radius: 30px;
-  padding: 46px 11px 38px 26px;
+  padding: 46px 11px 0px 26px;
   background-color: var(--highlight-color);
   text-align: left;
   width: 100%;
@@ -295,8 +300,9 @@ li a {
 
 .why-choose-us-card a {
   display: inline-block;
-  margin-top: 28px;
+  margin-top: auto;
   color: var(--icon-color);
   font-weight: 600;
-  padding-left: 33px;
+  padding-bottom: 36px;
+  margin-left: 11px;
 }
