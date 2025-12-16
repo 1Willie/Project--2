@@ -224,6 +224,7 @@ li a {
 .why-choose-us h2 {
   font-size: 24px;
   color: var(--card-text-color);
+  font-weight: 600;
 }
 
 .why-choose-us-cards {
