@@ -318,49 +318,49 @@ li a {
 /*--how section--*/
 .how-section {
   background: var(--highlight-color);
-  padding: 40px 0 70px;
+  padding: 40px 0 76px 0px;
 }
 
 .how-container {
   max-width: 1280px;
-  margin: 0 auto;
+  width: 100%;
   text-align: center;
-  padding: 40px 90px 32px;
+  padding: 40px 0px 32px;
 }
 
 .how-container h2 {
   font-size: 24px;
   font-weight: 600;
   color: var(--card-text-color);
-  margin-bottom: 12px;
   padding-top: 0;
+  max-width: 434px;
+  width: 100%;
+  margin: 0 auto 16px;
 }
 
 .how-text {
-  margin: 0 auto 60px;
-  margin-bottom: 90px;
+  margin: 0 auto 90px;
   color: var(--card-text-color);
   font-weight: 400;
-  font-size: 16px;
-  line-height: 100%;
+  size: 16px;
+  width: 600px;
+  max-width: 100%;
 }
 
 .how-bg {
   width: 100%;
   background: var(--how-section-bg-color);
-  height: 302px;
   border-top-right-radius: 151px;
   border-bottom-left-radius: 151px;
   display: flex;
   justify-content: center;
-  padding-bottom: 76px;
 }
 
 .how-media {
   position: relative;
   width: 723px;
   transform: translateY(-90px);
-  height: 348px;
+  margin-bottom: auto;
 }
 
 .kids-img {
