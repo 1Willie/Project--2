@@ -318,33 +318,32 @@ li a {
 /*--how section--*/
 .how-section {
   background: var(--highlight-color);
-  padding: 40px 0 76px 0px;
+  /* padding: 40px 0 76px 0px; */
 }
 
 .how-container {
   max-width: 1280px;
-  width: 100%;
+  /* width: 100%; */
   text-align: center;
-  padding: 40px 0px 32px;
+  padding: 40px 0px 0px;
+  height: 342px;
 }
 
 .how-container h2 {
   font-size: 24px;
   font-weight: 600;
   color: var(--card-text-color);
-  padding-top: 0;
   max-width: 434px;
   width: 100%;
   margin: 0 auto 16px;
 }
 
 .how-text {
-  margin: 0 auto 90px;
+  /* margin: 0 auto 90px; */
   color: var(--card-text-color);
   font-weight: 400;
   size: 16px;
-  width: 600px;
-  max-width: 100%;
+  margin-bottom: 156px;
 }
 
 .how-bg {
@@ -354,17 +353,20 @@ li a {
   border-bottom-left-radius: 151px;
   display: flex;
   justify-content: center;
+  align-items: end;
+  padding-bottom: 76px;
+  height: 302px;
 }
 
 .how-media {
   position: relative;
   width: 723px;
-  transform: translateY(-90px);
-  margin-bottom: auto;
+  /* transform: translateY(-90px); */
 }
 
 .kids-img {
   width: 100%;
+  max-width: 723px;
   display: block;
 }
 
