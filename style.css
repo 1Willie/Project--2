@@ -19,17 +19,25 @@ a {
   --input-text-color: #000000b0;
   --icon-color: #ffa62b;
   --card-text-color: #000000;
+  --how-section-bg-color: #0b353d;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: var(--form-input-bg-color);
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.header {
   background-color: var(--navbar-bg);
 }
 
 .navbar {
   background-color: var(--navbar-bg);
   padding: 20px 102px 68px 102px;
-  width: 100%;
+  /* width: 100%; */
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -213,9 +221,9 @@ li a {
 }
 
 /* !--Why--choose--us--section--*/
-
 .why-choose-us {
-  padding: 122px 102px 114px 102px;
+  padding: 40px 102px 114px 102px;
+  padding: 40px 102px 24px;
   background: var(--highlight-color);
   width: 100%;
   text-align: center;
@@ -225,13 +233,13 @@ li a {
   font-size: 24px;
   color: var(--card-text-color);
   font-weight: 600;
+  padding-top: 122px;
 }
 
 .why-choose-us-cards {
   display: flex;
   gap: 25px;
   justify-content: center;
-  align-items: stretch;
 }
 
 .why-choose-us-card {
@@ -303,6 +311,69 @@ li a {
   margin-top: auto;
   color: var(--icon-color);
   font-weight: 600;
-  padding-bottom: 36px;
   margin-left: 11px;
+  padding-bottom: 36px;
+}
+
+/*--how section--*/
+.how-section {
+  background: var(--highlight-color);
+  /* padding: 40px 0 76px 0px; */
+}
+
+.how-container {
+  max-width: 1280px;
+  /* width: 100%; */
+  text-align: center;
+  padding: 40px 0px 0px;
+  height: 342px;
+}
+
+.how-container h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--card-text-color);
+  max-width: 434px;
+  width: 100%;
+  margin: 0 auto 16px;
+}
+
+.how-text {
+  /* margin: 0 auto 90px; */
+  color: var(--card-text-color);
+  font-weight: 400;
+  size: 16px;
+  margin-bottom: 156px;
+}
+
+.how-bg {
+  width: 100%;
+  background: var(--how-section-bg-color);
+  border-top-right-radius: 151px;
+  border-bottom-left-radius: 151px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 76px;
+  height: 302px;
+}
+
+.how-media {
+  position: relative;
+  width: 723px;
+  /* transform: translateY(-90px); */
+}
+
+.kids-img {
+  width: 100%;
+  max-width: 723px;
+  display: block;
+}
+
+.youtube-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 112.85px;
+  transform: translate(-50%, -50%);
 }
